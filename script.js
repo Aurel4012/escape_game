@@ -17,8 +17,9 @@ function insertItem(item)
 	$.ajax({url: "functions.php",
 			type:"post",
 			data:{fnct: 'insertItem', item:item},
-			succes: function(output){
+			success: function(output){
 			console.log("la hache est enregistrée dans la base!");
 			}
-	);
+                    });
+                    
 }
