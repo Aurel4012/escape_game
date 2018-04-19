@@ -14,6 +14,14 @@
 
     </head>
 	<body>
+             <?php
+                session_start(); 
+                $_SESSION['idPlayer'] = '1';
+              ?>
 		<img alt="imageTestObjet" src="images/axe.png" onclick="clickItem(1)">
+                
+                <?php
+                  session_start();
+                error_log($_SESSION['idPlayer']); ?>
 	</body>
 </html>

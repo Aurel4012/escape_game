@@ -1,3 +1,15 @@
+function newGame()
+{
+    	$.ajax({url: "functions.php",
+			type:"post",
+			data:{fnct: 'newGame'},
+			success: function(output){
+			console.log("nouvelle partie créée");
+			}
+                    });
+}
+
+
 function clickItem(item)
 {
 	switch (item)
