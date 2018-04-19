@@ -12,14 +12,13 @@ function clickItem(item)
 	}
 }
 
-function insertItem(1)
+function insertItem(item)
 {
 	$.ajax({url: "functions.php",
 			type:"post",
-			data:"insertItem"
-			}
-		succes: function(output){
+			data:{fnct: 'insertItem', item:item},
+			succes: function(output){
 			console.log("la hache est enregistrée dans la base!");
-		}
+			}
 	);
 }

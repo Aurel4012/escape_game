@@ -1,5 +1,8 @@
 <?php 
-    
+    if (isset($_POST["fnct"]))
+    {
+        insertItem();
+    }
 
     function insertItem()
     {
