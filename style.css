@@ -1,0 +1,33 @@
+.btn {
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  -webkit-box-shadow: 0px 6px 2px #666666;
+  -moz-box-shadow: 0px 6px 2px #666666;
+  box-shadow: 0px 6px 2px #666666;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 25px;
+  background: #A0522D;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #8B4513;
+  text-decoration: none;
+}
+
+
+.menu_space_button{
+    margin:4em;
+}
+
+.menu_space_title{
+    margin:2em;
+}
+
+.menu_space_dvt{
+    margin-top: 15em;
+}
