@@ -1,0 +1,1 @@
+//Les fonctions permettant les interractions (AJAX partout)
