@@ -4,9 +4,16 @@ function newGame()
 			type:"post",
 			data:{fnct: 'newGame'},
 			success: function(output){
-			console.log("nouvelle partie créée");
+                            output = JSON.parse(output);
+                            console.log("nouvelle partie créée, id: " + output);
+                            
+                            document.cookie = "id_partie=" + output; 
+                             
+                            location.href = "game.php";
 			}
                     });
+                    
+        
 }
 
 
@@ -26,6 +33,7 @@ function clickItem(item)
 
 function insertItem(item)
 {
+    console.log(item);
 	$.ajax({url: "functions.php",
 			type:"post",
 			data:{fnct: 'insertItem', item:item},
