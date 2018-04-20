@@ -15,7 +15,7 @@
     </head>
 	<body>
             <p><?php echo "Value is: " . $_COOKIE[id_partie]; ?></p>
-		<img alt="imageTestObjet" src="images/axe.png" onclick="clickItem(1)">
-
+            <img alt="imageTestObjet" src="images/axe.png" onclick="clickItem(1)">
+            <img alt="imageTestObjet" src="images/axe.png" onclick="clickItem(2)">
 	</body>
 </html>

@@ -16,7 +16,6 @@ function newGame()
         
 }
 
-
 function clickItem(item)
 {
 	switch (item)
@@ -25,6 +24,10 @@ function clickItem(item)
 			console.log("Vous avez la hache");
 			insertItem(1);
 			break;
+                case 2:
+                        console.log("Vous regardez la deuxieme hache");
+                        showMessage("Vous regardez la deuxieme hache")
+                        break;
 		default:
 			console.log("noob");
 	
@@ -41,5 +44,11 @@ function insertItem(item)
 			console.log("la hache est enregistrée dans la base!");
 			}
                     });
+                    
+}
+
+function showMessage(message)
+{
+    alert(message);
                     
 }
