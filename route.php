@@ -1,11 +1,17 @@
 <?php
+session_start();
 require_once ('Model/DbConfig.class.php');
 require_once ('Model/Inventaire.class.php'); 
 require_once ('Model/ObjectManager.class.php');
 require_once ('Model/User.class.php');
 if (!isset($_SESSION['player'])){
  $controller = 'controllers/ctrl_user.php';
+} else {
+	$controller = 'controllers/ctrl_play.php';
 }
+
+
+
 if(isset($_GET['action'])) {
 	
     if($_GET['action']== 'room'){

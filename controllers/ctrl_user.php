@@ -10,7 +10,7 @@ echo 'creation player N°';
             $user = new User($db);
             $user_id = $user->create_user();// recup id_user
             echo $user_id;
-session_start();
+
 $_SESSION['player'] = $user_id;
 
 
