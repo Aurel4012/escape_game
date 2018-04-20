@@ -14,8 +14,7 @@
 
     </head>
     <body>
-
-        <h1 class="text-center menu_space_title">$TITRE</h1>
+        <h1 class="text-center menu_space_title">The Mansion</h1>
 
         <div class="row justify-content-around menu_space_button">
             <button class="btn" onclick="newGame()"> Nouvelle Partie </button>
@@ -27,10 +26,8 @@
 
 
         <div class="row justify-content-around menu_space_dvt">
-            <h6 class="">Développé par : $Nom</h6>
+            
         </div>
-
-
-
+	</div>
     </body>
 </html>
