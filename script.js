@@ -4,6 +4,7 @@ function newGame()
 			type:"post",
 			data:{fnct: 'newGame'},
 			success: function(output){
+				console.log(output);
                             output = JSON.parse(output);
                             console.log("nouvelle partie créée, id: " + output);
                             
@@ -42,7 +43,7 @@ function insertItem(item)
 			}
                     });
                     
-}
+
 }
 	console.log("coucou");
 	alert("ceihfozef");
