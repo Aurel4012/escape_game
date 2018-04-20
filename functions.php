@@ -34,7 +34,7 @@
     {
         $servername = "localhost";
         $username = "root";
-        $password = "";
+        $password = "123ezaltar";
         $dbname = "hackathon";
         
         

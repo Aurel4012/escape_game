@@ -23,15 +23,37 @@ function clickItem(item)
     switch (item)
     {
         case 1:
-            if(checkItem(4) == "cle et code")
+            break;
+        case 2:
+            break;
+        case 3:
+            break;
+        case 4:
+            break;
+        case 5:
+            break;
+        case 6:
+            break;
+        case 6:
+            break;
+        case 7:
+            break;
+        case 8:
+            insertItem(8);
+            break;
+        case 9:
+            insertItem(9);
+            break;
+        case 31:
+            if(checkItem(31) == "cle et code")
             {
                 showMessage("A l'aide de la clé et du code vous avez déverouillé le coffre-fort!");
             }
-            else if(checkItem(4) == "cle")
+            else if(checkItem(31) == "cle")
             {
                 showMessage("Vous avez déverouillé la serrure avec la clé, plus qu'a trouver le code!");
             }
-            else if(checkItem(4) == "code")
+            else if(checkItem(31) == "code")
             {
                 showMessage("Vous avez entrer le digicode du code, plus qu'a trouver la clé!");
             }
@@ -40,14 +62,10 @@ function clickItem(item)
                 showMessage("Le coffre est protégé par une serrure et un digicode...");
             };
             break;
-        case 2:
-            showMessage("");
+        case 32:
             break;
-        case 3:
-            showMessage("");
-            break;
-        case 4:
-            if(checkItem(4) == "torche")
+        case 33:
+            if(checkItem(33) == "torche")
             {
                 showMessage("Il fait trop sombre dans la pièce observer en détails ce tableau...");
             }
@@ -56,11 +74,11 @@ function clickItem(item)
                 showMessage("Grâce à la lampe torche vous remarquer que le tableau dissimule une coffre-fort!");
             };
             break;
-        case 5:
-            insertItem(5);
+        case 34:
+            insertItem(34);
             break;
-        case 6:
-            if(checkItem(6) == "phone")
+        case 35:
+            if(checkItem(35) == "phone")
             {
                 showMessage("Après avoir composé le numéro de la tortue vous entendez une voix vous dire un code: 874652!");
             }
@@ -69,11 +87,11 @@ function clickItem(item)
                 showMessage("Vous ne savez pas quel numéro composer avec ce téléphone...");
             };
             break;
-        case 7:
-            insertItem(7);
+        case 36:
+            insertItem(36);
             break;
-        case 8:
-            insertItem(8);
+        case 37:
+            insertItem(37);
             break;
         default:
             console.log("");
