@@ -49,8 +49,6 @@ function insertItem(item)
 
 }
 
-	console.log("coucou");
-	alert("ceihfozef");
 	
 	function show_menu(id_menu) {
 		console.log("text");
