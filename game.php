@@ -20,9 +20,30 @@
         <img alt="imageTestObjet" src="images/axe.png" onclick="clickItem(2)">-->
 
 
-        <div class="container">
+        <div class="">
             <div class="row">
                 <div class="col-12">
+                      <div id="salon" class="carre"> 
+                        </div>
+                        <div id="cuisine" class="carre1 hidden"> 
+                        </div>
+                        <div id="bureau" class="carre2 hidden"> 
+                            
+                            <img src="images/item_bureau/bureau_full.jpg"/>
+                            <img src="images/item_bureau/coffre.png" onclick="clickItem(1)"/>
+                            <img src="images/item_bureau/desk.png" onclick="clickItem(2)"/>
+                            <img src="images/item_bureau/elevator.png" onclick="clickItem(3)"/>
+                            <img src="images/item_bureau/joconde.png" onclick="clickItem(4)"/>
+                            <img src="images/item_bureau/key.png" onclick="clickItem(5)"/>
+                            <img src="images/item_bureau/phone.png" onclick="clickItem(6)"/>
+                            <img src="images/item_bureau/torche.png" onclick="clickItem(7)"/>
+                            <img src="images/item_bureau/turtle.png" onclick="clickItem(8)"/>
+                            
+                        </div>
+                        <div id="garage" class="carre hidden"> 
+                        </div>
+                        <div id="hall" class="carre1 hidden"> 
+                        </div>
                     <div id="menu" class="">
                         <div id="onglets" class="row justify-content-around">
                             <button type="submit" class="col-2" onclick="show_menu('salon')" > <p class="dessus">Salon</p> <img src="images/axe.png" style="width: 50%;"></button>
@@ -33,16 +54,7 @@
                         </div>
 
 
-                        <div id="salon" class="carre"> 
-                        </div>
-                        <div id="cuisine" class="carre1 hidden"> 
-                        </div>
-                        <div id="bureau" class="carre2 hidden"> 
-                        </div>
-                        <div id="garage" class="carre hidden"> 
-                        </div>
-                        <div id="hall" class="carre1 hidden"> 
-                        </div>
+                      
 
 
                     </div>

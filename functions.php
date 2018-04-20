@@ -19,6 +19,14 @@
             insertItem();
         }
         
+        
+        if($_POST["fnct"]=="checkItem" && isset($_POST["item"]))
+        {
+        
+            error_log("checkItem");
+            checkItem();
+        }
+        
     }
     
     
@@ -84,6 +92,41 @@
         error_log("fin fonction");
         
         
+    }
+    
+    
+    function checkItem()
+    {
+        $servername = "localhost";
+        $username = "root";
+        $password = "123ezaltar";
+        $dbname = "hackathon";
+        $item = $_POST["item"];
+        
+        
+        try {
+            error_log("debut try");
+            $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+
+            //$sql = "SELECT * FROM Inventaire WHERE id_partie =" . $_COOKIE[id_partie] . " AND id_objet =" . $item;
+ 
+            error_log("test items: " . $_COOKIE[id_partie]);
+            error_log($item);
+            
+            $nRows = $conn->query("SELECT EXISTS(SELECT * FROM Inventaire WHERE id_partie =" . $_COOKIE[id_partie] . " AND id_objet =" . $item . ")");
+            
+            error_log(serialize($nRows));
+
+            
+            error_log("fin try");
+        }
+        catch(PDOException $e)
+        {
+            error_log("debut catch");
+            error_log($e->getMessage);
+                        
+        }
+        error_log("fin fonction");
     }
     
 ?>
