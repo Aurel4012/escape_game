@@ -1,21 +1,22 @@
 function newGame()
 {
-    $.ajax({url: "functions.php",
-        type: "post",
-        data: {fnct: 'newGame'},
-        success: function (output) {
-            console.log(output);
-            output = JSON.parse(output);
-            console.log("nouvelle partie créée, id: " + output);
-
-            document.cookie = "id_partie=" + output;
-
-            location.href = "game.php";
-        }
-    });
-
+    	$.ajax({url: "functions.php",
+			type:"post",
+			data:{fnct: 'newGame'},
+			success: function(output){
+				console.log(output);
+                            output = JSON.parse(output);
+                            console.log("nouvelle partie créée, id: " + output);
+                            
+                            document.cookie = "id_partie=" + output; 
+                             
+                            location.href = "game.php";
+			}
+                    });
+                    
 
 }
+
 
 function clickItem(item)
 {

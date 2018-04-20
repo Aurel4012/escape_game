@@ -34,7 +34,7 @@
     {
         $servername = "localhost";
         $username = "root";
-        $password = "123ezaltar";
+        $password = "";
         $dbname = "hackathon";
         
         
@@ -42,7 +42,7 @@
             error_log("debut try");
             $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 
-            $sql = "INSERT INTO Partie (id_partie) VALUES (NULL)";
+            $sql = "INSERT INTO partie (id_partie) VALUES (NULL)";
  
             $conn->exec($sql);
             
