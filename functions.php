@@ -90,8 +90,6 @@
                         
         }
         error_log("fin fonction");
-        
-        
     }
     
     

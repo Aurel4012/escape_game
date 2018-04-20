@@ -32,11 +32,27 @@
     margin-top: 15em;
 }
 
-.dessus{
+.dessus_nom_pièce{
 	position: absolute;
-    left: 70px;
+    left: 50px;
     top: 0px;
-    color: blue;
+    color: black;
+    font-size: 23px;
+    z-index: 1;
+}
+
+.dessus_hall{
+	position: absolute;
+    left: 55px;
+    top: 0px;
+    color: black;
+    font-size: 23px;
+    z-index: 1;
+}
+
+.dessus_menu{
+	position: absolute;
+    color: black;
     font-size: 23px;
     z-index: 1;
 }
@@ -45,21 +61,11 @@
 display: none; 
 }
 
-.carre{
-	background-color:red;
-	width: 50px;
-	height: 50px;
-	border: 1px solid black;
+.onglet_custom{
+	padding:0%;
 }
 
-.carre1{
-	background-color:black;
-	width: 50px;
-	height: 50px;
+.padding_bg{
+	padding-left:1%;
 }
 
-.carre2{
-	background-color:blue;
-	width: 50px;
-	height: 50px;
-}
