@@ -33,10 +33,19 @@
                             <button type="submit" class="col-2" onclick="show_menu('garage')" style="padding: 0%;" > <p class="dessus_nom_pièce">Garage</p> <img src="images/item_garage/garage_full.jpg" style="width: 100%;"> </button>
                             <button type="submit" class="col-2" onclick="show_menu('hall')" style="padding: 0%;" > <p class="dessus_hall">Hall</p> <img src="images/item_hall/space-3197639.jpg" style="width: 100%;">  </button>            
                         </div>
-                      <div id="salon" class=""><img src="images/item_salon/salon_full.jpg"  >
+                        
+                      <div id="salon" class=""><img src="images/item_salon/room-2185942.jpg" style="width: 100%" >
+                            <img src="images/item_salon/elevator.png" onclick="clickItem(1)"/>
+                            <img src="images/item_salon/library-book-cart-vector-graphic.png" onclick="clickItem(2)"/>
+                            <img src="images/item_bureau/joconde.png" onclick="clickItem(4)"/>
+                            <img src="images/item_salon/Sans titre.png" onclick="clickItem(5)"/>
+                            <img src="images/item_salon/speaker-35556_1280.png" onclick="clickItem(6)"/>
+                            <img src="images/item_salon/tv_star.png" onclick="clickItem(7)"/>
                         </div>
+                        
                         <div id="cuisine" class="hidden"> <img src="images/item_cuisine/cuisine_full.jpg">
                         </div>
+                        
                         <div id="bureau" class="hidden">                     
                             <img src="images/item_bureau/bureau_full.jpg"/>
                             <img src="images/item_bureau/cofre.png" onclick="clickItem(1)"/>
@@ -48,9 +57,12 @@
                             <img src="images/item_bureau/torche.png" onclick="clickItem(7)"/>
                             <img src="images/item_bureau/turtle.png" onclick="clickItem(8)"/>                        
                         </div>
+                        
                         <div id="garage" class="hidden"> <img src="images/item_garage/garage_full.jpg">
                         </div>
-                        <div id="hall" class="hidden"> <img src="images/item_hall/space-3197639.jpg">
+                        
+                        <div id="hall" class="hidden"> <img src="images\item_hall\space-31zefg97639.jpg">
+        
                         </div>
                     
 
