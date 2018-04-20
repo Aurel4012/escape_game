@@ -34,7 +34,16 @@
 
 .dessus_nom_pièce{
 	position: absolute;
-    left: 70px;
+    left: 50px;
+    top: 0px;
+    color: black;
+    font-size: 23px;
+    z-index: 1;
+}
+
+.dessus_hall{
+	position: absolute;
+    left: 55px;
     top: 0px;
     color: black;
     font-size: 23px;
@@ -43,7 +52,7 @@
 
 .dessus_menu{
 	position: absolute;
-    color: blue;
+    color: black;
     font-size: 23px;
     z-index: 1;
 }
@@ -59,3 +68,4 @@ display: none;
 .padding_bg{
 	padding-left:1%;
 }
+
