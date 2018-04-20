@@ -69,3 +69,156 @@ display: none;
 	padding-left:1%;
 }
 
+.elevator{
+    position: absolute;
+    width: 27%;
+    top: 28%;
+    left: 58%;
+}
+.bibiotheque{
+	    width: 20%;
+    top: 36.3%;
+    left: 19%;
+    position: absolute;
+}
+.baffle{
+    width: 10%;
+    position: absolute;
+    top: 68%;
+    left: 5%;
+}
+
+.baffle2{
+	    position: absolute;
+    width: 10%;
+    top: 71%;
+    left: 88%;
+}
+
+.tele{
+    position: absolute;
+    width: 15%;
+    top: 36%;
+    left: 43%;
+}
+
+.crevette{
+	position: absolute;
+    width: 8%;
+    top: 7%;
+}
+
+.bureau{
+    position: absolute;
+    width: 28%;
+    top: 68%;
+    left: 39%;
+}
+
+.fromage{
+    position: absolute;
+    width: 4%;
+    top: 73%;
+    left: 45%;
+}
+.note{
+    width: 4%;
+    position: absolute;
+    top: 66%;
+    left: 22%;
+}
+
+.four{
+    width: 13%;
+    position: absolute;
+    top: 53%;
+    left: 64%;
+}
+
+.allumette{
+    position: absolute;
+    width: 3%;
+    top: 68%;
+    left: 57%;
+}
+
+.caftiere{
+	position: absolute;
+    width: 4%;
+    top: 12%;
+}
+.kiwi{
+	width: 4%;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.evier{
+    position: absolute;
+    width: 19%;
+    top: 52%;
+    left: 20%;
+}
+
+.casserol{
+position: absolute;
+    width: 5%;
+    top: 53%;
+    left: 21%;
+}
+
+.coffre{
+    position: absolute;
+    width: 11%;
+    top: 60%;
+    left: 73%;
+}
+
+.bureau{
+    position: absolute;
+    width: 30%;
+    top: 57%;
+    left: 16%;
+}
+
+.torche{
+	    position: absolute;
+    width: 5%;
+    top: 59%;
+    left: 25%;
+}
+
+.joconde{
+	    position: absolute;
+    width: 15%;
+    top: 43%;
+    left: 74%;
+}
+
+.tortue{
+	width: 8%;
+    position: absolute;
+	top: 55%;
+    left: 33%;
+}
+
+.telephone{
+	position: absolute;
+    width: 5%;
+    top: 55%;
+    left: 20%;
+}
+.cle{
+	 position: absolute;
+    width: 3%;
+    top: 86%;
+    left: 10%;
+}
+
+.elevator2{
+	    position: absolute;
+    width: 27%;
+    top: 23%;
+    left: 52%;
+}
