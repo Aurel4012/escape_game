@@ -18,7 +18,7 @@
         <h1 class="text-center menu_space_title">$TITRE</h1>
 
         <div class="row justify-content-around menu_space_button">
-            <button class="btn" onclick="newGame()"> Nouvelle Partie </button>
+            <a href="route.php?action">test</a><button class="btn" onclick="newGame()"> Nouvelle Partie </button>
         </div>
 
         <div class="row justify-content-around menu_space_button">
